@@ -1,0 +1,124 @@
+.img-details-back
+{
+	height: 100%;
+}
+
+.lbl-details-title
+{
+	text-align: center;
+padding: 4px 0px;
+background-color: rgba(255,255,255,0.5);
+color: #0e58ab;
+white-space: nowrap;
+overflow: hidden;
+position: absolute;
+width: 100%;
+}
+
+
+.dv-details-info{
+text-align: left;
+padding: 4px 4px;
+background-color: rgba(255,255,255,0.6);
+color: #000;
+position: absolute;
+right:0px;
+left:0px;
+top: 260px;
+font-size: 12pt;
+bottom: 0px;
+}
+
+.p-details-desc
+{
+	position: absolute;
+width: auto;
+right: 5px;
+top: 50px;
+left: 150px;
+font-size: 14pt;
+color: #09005c;
+}
+.dv-details-overlay{
+position: absolute;
+opacity: 1.0;
+background-color: rgba(255, 255, 255, 0.7);
+width: 100%;
+height: 100%;
+}
+
+.img-details-poster
+{
+	position: absolute;
+	left:10px;
+	top:50px;
+	max-height:200px;
+}
+
+.my-overlay{
+    background-color:  rgba(255, 255, 255, 0.75);
+    z-index: 15000;
+    position:  absolute;
+    left:  0px;
+    right:  0px;
+    top:  50px;
+    bottom: 0px;
+    background-image: url("../images/loader.gif");
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.img-loader
+{
+	width:100px;
+	height: 100px;
+	background-image: url("../images/loader.gif");
+	background-repeat: no-repeat;
+}
+
+.dvTag
+{
+	position: absolute;
+    font-size: 10pt;
+    right: 3px;
+    bottom: 19px;
+    background-color: #eee;
+    padding: 1px 2px;
+    border-radius: 20px;
+    color: #000;
+}
+
+.hide-first-el li:first-child{
+	opacity:0;
+}
+
+.ui-gridview.hide-first-el{
+	background-color: inherit;
+}
+
+
+.btn-ice{
+margin-top:12px;
+margin-bottom:12px;	
+}
+
+.movie-thumb-title{
+	text-align : center;
+    font-size: 14px;	
+    background-color: #ececec;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ui-gridview .ui-gridview-item {
+
+
+    border: solid 1px #ddd;
+    padding-top: 10px;
+
+}
+
+.ui-gridview-image{
+	max-height:180px;
+	height: 180px;
+}

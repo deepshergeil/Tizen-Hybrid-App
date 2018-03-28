@@ -1,0 +1,13 @@
+# ninja log v5
+78	99	0	clean	d59b6dac04fa9b5d
+763	1271	0	moviedbservice	70a30d5744d9cd1f
+3	763	0	src/moviedbservice.o	ac79737923788516
+0	42	0	clean_cov	b3de405e02eb7ca8
+42	78	0	clean_sa	46ab9549445ac981
+0	234	0	clean_cov	b3de405e02eb7ca8
+234	305	0	clean_sa	46ab9549445ac981
+305	345	0	clean	d59b6dac04fa9b5d
+3	5164	0	src/moviedbservice.o	2cbf90146c5d4742
+5168	14425	0	moviedbservice	5e67d25b388e2051
+26	1076	0	src/moviedbservice.o	2cbf90146c5d4742
+1077	1752	0	moviedbservice	5e67d25b388e2051

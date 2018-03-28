@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Tizen Mobile Web Basic Template" />
+
+    <title>Tizen Mobile Web Basic Application</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="model/models.js"></script>
+    <script type="text/javascript" src="controller/service_controller.js"></script>
+    
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+
+
+<div class="ui-page" id="main">
+
+
+
+		
+<div id="popup" class="ui-popup">
+   <div class="ui-popup-header">Header</div>
+   <div class="ui-popup-content popup-content-padding">
+      Message
+   </div>
+   <div class="ui-popup-footer">
+      <a class="ui-btn" data-rel="back" data-inline="true">Cancel</a>
+   </div>
+</div>
+
+
+
+	<div class="ui-tabs" id="tabs">
+	<div class="my-overlay" id="dvOverlay" style="display:none;">
+	
+	</div>
+<h1 id="tabTitle" class="ui-title">Tizen Movie Portal</h1>
+		<div class="ui-tabbar">
+			<ul>
+				<li class="ui-li-anchor"><a href="#" class="ui-tab-active">Now Playing</a></li>
+				<li class="ui-li-anchor"><a href="#">Upcoming...</a></li>
+
+			</ul>
+		</div>
+		
+		<div class="ui-section-changer" id="sectionChanger" data-use-tab="true">
+		
+
+		
+			<div class="ui-contentX"> 
+			
+			
+				<section class="ui-section-active " >
+
+<ul id="gridview" class="ui-gridview hide-first-el" data-cols="2" data-label="out">
+   <li class="ui-gridview-item">
+
+      <img class="ui-gridview-image" src="images/test.jpg"/>
+      <div class="movie-thumb-title">XXXX</div>
+      <div class="ui-gridview-handler"></div>
+      <div class="dvTag">6.3</div>
+   </li>   
+</ul>
+
+<button class="btn-ice " id="btn-nextpage-now" style="display:none;">Load More...</button>
+
+</section>
+
+				
+				
+				<section>
+
+
+<ul id="gridviewup" class="ui-gridview hide-first-el" data-cols="2" data-label="out">
+   <li class="ui-gridview-item">
+      <img class="ui-gridview-image" src="images/test.jpg"/>
+      <div class="movie-thumb-title">XXXX</div>
+      <div class="ui-gridview-handler"></div>
+   </li>   
+</ul>
+
+<button class="btn-ice " id="btn-nextpage-up" style="display:none;">Load More...</button>
+
+
+
+				</section>
+				
+				
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+</body>
+
+</html>

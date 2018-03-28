@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="org.moviedb.service" version="1.0.0">
+    <profile name="mobile"/>
+    <service-application appid="org.moviedb.service" exec="moviedbservice" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>moviedbservice</label>
+        <icon>moviedbservice.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>
